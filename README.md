@@ -65,8 +65,6 @@ void initialize_shell(void){
 }
 ```
 
-**Chapter 3**
-
 # **Shell Mode**
 
 **WISH** shell support both interactive and bash mode. To check whether to run shell in interactive or bash mode **check\_bash\_mode** function is implemented. check\_bash\_mode() which takes in two arguments, argc and argv[]. The purpose of this function is to check if the shell is running in interactive or non-interactive mode.
@@ -93,8 +91,6 @@ void check_bash_mode(int argc, char*argv[]){
 }
 ```
 
-**Chapter 4**
-
 # **Prompt Print**
 
 **print\_prompt()** which takes in an integer argument interactive. The purpose of this function is to print the shell prompt to the console.
@@ -112,8 +108,6 @@ void print_prompt(int interactive){
     }
 }
 ```
-
-**Chapter 5**
 
 # **Separate Commands**
 
@@ -141,8 +135,6 @@ int separate_cmd(char cmd[]) {
     return k;
 }
 ```
-
-**Chapter 6**
 
 # **Split Command**
 
@@ -172,8 +164,6 @@ void split_cmd(int p){
 
 }
 ```
-
-**Chapter 7**
 
 # **Check Redirection**
 
@@ -237,8 +227,6 @@ void check_redirection(void){
 }
 ```
 
-**Chapter 8**
-
 # **Execute cd Command**
 
 The above code defines a function execute\_cd which is used to change the current working directory of the shell.
@@ -258,8 +246,6 @@ void execute_cd(char **arg) {
     }
 }
 ```
-
-**Chapter 9**
 
 # **Execute path Command**
 
@@ -296,8 +282,6 @@ char *execute_path(char **arg, char *path) {
     return pathCopy;
 }
 ```
-
-**Chapter 10**
 
 # **Explain Main**
 
