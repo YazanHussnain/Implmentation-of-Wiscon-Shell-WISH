@@ -1,6 +1,6 @@
 # **Introduction**
 
-The Wiscon Shell ( **WISH** ) is a shell that I implemented in C as part of the ostep-projects assignment. WISH provides users with a set of built-in functions and allows them to execute external programs using the **execv()** function in C. It also offers support for parallel commands and output redirection.
+The ```Wiscon Shell``` ( **WISH** ) is a shell that I implemented in C as part of the ostep-projects assignment. WISH provides users with a set of built-in functions and allows them to execute external programs using the **execv()** function in C. It also offers support for parallel commands and output redirection.
 
 By utilizing the **execv()** function, **WISH** allows users to execute external programs from within the shell and manipulate their input and output streams. This functionality provides users with a way to interact with the operating system in a more flexible and customizable way.
  Furthermore, WISH's support for parallel commands allows users to execute multiple tasks simultaneously, improving efficiency and productivity. The output redirection feature enables users to direct the output of a command to a file or another location, providing added flexibility and functionality.
